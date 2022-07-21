@@ -7,7 +7,7 @@
 body {
     text-align: center;
     min-height: 100vh;
-    background-image: url('/images/back.png');
+    background-image: url('../images/back.png');
     background-position: center center fixed;
     background-size: contain;
     
