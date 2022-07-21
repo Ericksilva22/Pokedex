@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('/images/back.png');
+    background-position: center center fixed;
+    background-size: contain;
+    
+}
+
+main {
+    margin-top: 6%;
+    display: inline-block;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon-image {
+    position: absolute;
+    bottom: 53%;
+    left: 30%;
+    transform: translate(-63%, 20%);
+    height: 15%;
+}
+
+.dados {
+    background-color: #fff;
+    width: 29.7%;
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 52%;
+    right: 58%;
+    font-size: clamp(8px, 5vw, 15px); /* (min, default, max) */
+}
+
+.pokemon-name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.formulario {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+}
+
+.pesquisa {
+    width: 78%;
+    padding: 2%;
+    border: 2px solid #333;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 0.8rem);
+}
+
+.buttons {
+    position: absolute;
+    bottom: 24%;
+    left:60%;
+    width: 17%;
+    display: flex;
+    
+}
+
+.button-prev {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px 0 0 5px;
+    font-size: clamp(8px, 5vw, 0.8rem);
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.button-next {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 0 5px 5px 0;
+    font-size: clamp(8px, 5vw, 0.8rem);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #6ab7f5;
+    font-size: 0.8rem;
+}
