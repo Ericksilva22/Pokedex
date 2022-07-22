@@ -97,3 +97,33 @@ main {
     background-color: #6ab7f5;
     font-size: 0.8rem;
 }
+
+/* Responsividade */
+
+@media (max-width: 414px) {
+
+    body {
+        background-image: url(../images/back.png);
+        background-size: cover;
+    }
+    main {
+        margin-top: 50%;
+        display: inline-block;
+        position: relative;
+    }
+}
+
+@media (max-width: 820px) {
+
+    body {
+        background-image: url(../images/back.png);
+        background-size: cover;
+    }
+    main {
+        margin-top: 50%;
+        display: inline-block;
+        position: relative;
+        
+    }
+
+}
