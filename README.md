@@ -1,4 +1,4 @@
-# Implementação de uma Pokédex utilizando HTML, CSS e Javascript
+# Implementação de uma Pokédex utilizando HTML, CSS e JavaScript
   
 *Olá!!*
 
